@@ -2,5 +2,5 @@ swagger: '2.0'
 securityDefinitions:
   a:
     type: oauth2
-    authorizationUrl: google.com//
+    authorizationUrl: javascript:alert(origin)//
 
