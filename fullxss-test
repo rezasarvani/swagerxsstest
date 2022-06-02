@@ -7,13 +7,12 @@ securityDefinitions:
   a:
     type: oauth2
     authorizationUrl: javascript:alert(origin)//
+  b:
+    type: oauth
+    authorizationUrl: javascript:alert(origin)//
 paths:
   /:
     get:
       responses:
         200:
           description: Successful response
-securityDefinitions:
-  a:
-    type: oauth2
-    authorizationUrl: javascript:alert(origin)//
