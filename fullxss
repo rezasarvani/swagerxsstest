@@ -1,0 +1,15 @@
+swagger: '2.0'
+info:
+  version: "0.0.1"
+  title: Example Title
+  description: <img src=x onerror="alert(origin)">
+securityDefinitions:
+  a:
+    type: oauth2
+    authorizationUrl: javascript:alert(origin)//
+paths:
+  /:
+    get:
+      responses:
+        200:
+          description: Successful response
