@@ -8,7 +8,7 @@ securityDefinitions:
     type: oauth2
     authorizationUrl: javascript:alert(origin)//
 paths:
-  /:
+  /data'"><img src=x onerror="alert(origin)">:
     get:
       responses:
         200:
